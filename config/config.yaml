@@ -1,0 +1,15 @@
+# Custom configuration (extend as needed)
+app_name: "VK SMM Assistant"
+version: "0.1.0"
+description: "Platform for VK social media automation"
+
+# Feature flags
+features:
+  content_generation: false
+  analytics: false
+  auto_posting: false
+
+# Rate limits (requests per minute)
+rate_limits:
+  free_tier: 60
+  premium_tier: 300
